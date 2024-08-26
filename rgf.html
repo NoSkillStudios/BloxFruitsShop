@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Blox Fruits Shop</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            padding: 40px;
+            background: linear-gradient(135deg, #004d40, #00796b);
+            color: #fff;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 15px;
+            margin: 20px;
+            padding: 20px;
+            width: calc(25% - 40px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .product img {
+            border-radius: 15px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .product p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .product button {
+            background-color: #00796b;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .product button:hover {
+            background-color: #004d40;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #004d40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Blox Fruits Packs & Level 50 Accounts</h1>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Starter Fruit Pack">
+            <h2>Starter Fruit Pack + Level 50 Account</h2>
+            <p>$10</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Intermediate Fruit Pack">
+            <h2>Intermediate Fruit Pack + Level 50 Account</h2>
+            <p>$25</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Legendary Fruit Pack">
+            <h2>Legendary Fruit Pack + Level 50 Account</h2>
+            <p>$50</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Mystic Fruit Pack">
+            <h2>Mystic Fruit Pack + Level 50 Account</h2>
+            <p>$100</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Blox Fruits Shop. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
